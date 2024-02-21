@@ -1,7 +1,4 @@
-FROM gitpod/openvscode-server:latest
-
-ENV OPENVSCODE_SERVER_ROOT="/home/.openvscode-server"
-ENV OPENVSCODE="${OPENVSCODE_SERVER_ROOT}/bin/openvscode-server"
+FROM phusion/baseimage:bionic-1.0.0
 
 SHELL ["/bin/bash", "-c"]
 RUN \
