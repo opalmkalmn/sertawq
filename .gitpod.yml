@@ -1,6 +1,6 @@
 image:
-  file: .gitpod.Dockerfile
-
+  file: .gitpod.dockerfile
+  context: apache
 ports:
-  - port: 5000
-    onOpen: ignore
+- port: 8080
+  onOpen: open-preview
