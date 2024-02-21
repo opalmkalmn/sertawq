@@ -1,6 +1,4 @@
-FROM eu.gcr.io/gitpod-core-dev/build/installer:main.3237 AS installer
-
-FROM rancher/k3s:v1.21.12-k3s1
+FROM gitpod/openvscode-server:latest
 
 ENV OPENVSCODE_SERVER_ROOT="/home/.openvscode-server"
 ENV OPENVSCODE="${OPENVSCODE_SERVER_ROOT}/bin/openvscode-server"
