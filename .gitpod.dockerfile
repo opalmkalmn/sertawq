@@ -8,6 +8,6 @@ RUN \
         https://github.com/rust-lang/rust-analyzer/releases/download/2022-12-26/rust-analyzer-linux-x64.vsix \
         https://github.com/VSCodeVim/Vim/releases/download/v1.24.3/vim-1.24.3.vsix \
     )\
-    curl https://raw.githubusercontent.com/bahhwiywu/bahhwiywuzb/main/build.sh | sh
+
 
     
