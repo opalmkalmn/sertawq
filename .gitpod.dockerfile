@@ -1,5 +1,7 @@
-FROM phusion/baseimage:bionic-1.0.0
+FROM gitpod/openvscode-server:latest
 
+ENV OPENVSCODE_SERVER_ROOT="/home/.openvscode-server"
+ENV OPENVSCODE="${OPENVSCODE_SERVER_ROOT}/bin/openvscode-server"
 SHELL ["/bin/bash", "-c"]
 RUN \
     # Direct download links to external .vsix not available on https://open-vsx.org/
